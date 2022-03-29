@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, harjoitustyö
 ## **Harjoitustyö**
-[vaatimusmäärittely.md](dokumentaatio/vaatimusmäärittely.md)
+[vaatimusmaarittely.md](dokumentaatio/vaatimusmaarittely.md)
 
 
 ## **Tehtävät**
