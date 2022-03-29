@@ -6,7 +6,7 @@ Sovelluksessa on vain rekisteröityneet käyttäjät, mutta tarpeen mukaan sovel
 ## Käyttöliittymäluonnos
 Sovelluksessa on 3 näkymää: kirjaudu, luo käyttäjä ja itse sovellus josta löytyy kaikki sen toiminnallisuudet. Kirjaudu ja luo käyttäjä toimivat kaikille tutulla tavalla. Sovelluksessa itsessään on kolme kategoriaa: ohjaajat, käsikirjoittajat ja kuvaajat. Kun klikkaat vaikka ohjaajaa vie sovellus sinut ohjaajan sivulle, jossa on kaikki elokuvat, jotka olet lisännyt ohjaajan alle watchlistiin.
 ## Perusversio
-### Ennen kirjautumista
+#### Ennen kirjautumista
 * Käyttäjällä on mahdollisuus luoda käyttäjätunnus sovellukseen
 
 	* Käyttäjätunnuksen on oltava uniikki
@@ -15,7 +15,7 @@ Sovelluksessa on 3 näkymää: kirjaudu, luo käyttäjä ja itse sovellus josta 
 	
 	* Käyttäjätunnuksen on oltava luotuna ja salasanan on mentävä oikein
 
-### Kirjautumisen jälkeen
+#### Kirjautumisen jälkeen
 * Alku näkymässä on kategoriat ohjaajat, käsikirjoittajat ja kuvaajat.
 	
 	* Käyttäjä voi klikata haluamaansa kategoriaa, joka vie kategorian sivulle
