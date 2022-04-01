@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, harjoitustyö
 ## **Harjoitustyö**
-[vaatimusmaarittely.md](dokumentaatio/vaatimusmaarittely.md)
+[vaatimusmaarittely.md](dokumentaatio/vaatimusmaarittely.md)  
 [työaikakirjanpito.txt](dokumentaatio/työaikakirjanpito.txt)
 
 
