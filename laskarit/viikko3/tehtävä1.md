@@ -1,5 +1,5 @@
 ```mermaid
-  graph TD;
+graph TD;
 	Pelilauta <--> Pelaaja;
 	Pelilauta ..> Noppa;
 	Pelilauta <--> Ruutu;
