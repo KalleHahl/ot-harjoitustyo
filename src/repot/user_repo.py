@@ -1,6 +1,6 @@
 import sqlite3
-import oliot.kayttaja
-db = sqlite3.connect("kayttajat.db")
+from database_connection import get_database_route
+db = get_database_route()
 
 
 class Kayttajarepo:
