@@ -1,6 +1,6 @@
 
 from tkinter import ttk, constants
-from applikaatio.applikaatio import applikaatio
+from app.app import App
 
 
 
@@ -25,7 +25,7 @@ class Register:
         username = self._username_txt.get()
         password = self._password_txt.get()
 
-        applikaatio.luo_kayttaja(username, password)
+        App.register_user(username, password)
         print("kiitos")
 
 
@@ -44,12 +44,12 @@ class Register:
 
         password_label = ttk.Label(master=self._frame, text='Password')
 
-        self._password_txt = ttk.Entry(master=self._frame)
+        self._password_txt = ttk.Entry(master=self._frame, show="*")
 
         password_label.grid(padx=5, pady=5, sticky=constants.W)
         self._password_txt.grid(padx=5, pady=5, sticky=constants.EW)
 
-        create_user_button = ttk.Button(master=self._frame,text='Register',command=self._register_user())
+        register_user_button = ttk.Button(master=self._frame,text='Register',command=self._register_user())
 
         login_button = ttk.Button(
             master=self._frame,
@@ -59,5 +59,5 @@ class Register:
 
         self._frame.grid_columnconfigure(0, weight=1, minsize=400)
 
-        create_user_button.grid(padx=5, pady=5, sticky=constants.EW)
+        register_user_button.grid(padx=5, pady=5, sticky=constants.EW)
         login_button.grid(padx=5, pady=5, sticky=constants.EW)
