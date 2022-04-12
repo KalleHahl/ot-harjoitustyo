@@ -2,6 +2,8 @@
 from entities.movie import Movie
 from entities.user import User
 from repot.user_repo import (user_repo as default_user_repo)
+from database_connection import get_database_route
+db = get_database_route()
 
 class App:
 

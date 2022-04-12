@@ -1,6 +1,6 @@
 
 from tkinter import ttk, constants
-from app.app import App
+from app.app import app
 
 
 
@@ -20,13 +20,6 @@ class Register:
 
     def destroy(self):
         self._frame.destroy()
-
-    def _register_user(self):
-        username = self._username_txt.get()
-        password = self._password_txt.get()
-
-        App.register_user(username, password)
-        print("kiitos")
 
 
         
@@ -61,3 +54,11 @@ class Register:
 
         register_user_button.grid(padx=5, pady=5, sticky=constants.EW)
         login_button.grid(padx=5, pady=5, sticky=constants.EW)
+
+    def _register_user(self):
+        username = self._username_txt.get()
+        password = self._password_txt.get()
+        print((password, username))
+
+        app.register_user(username, password)
+        print("kiitos")
